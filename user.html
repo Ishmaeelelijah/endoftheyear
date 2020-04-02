@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Yellow Green Media</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Yellow Green Media</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="front.html">Home</a></li>
+      <li><a href="#">User Profile</a></li>
+      <li><a href="#">Admin</a></li>
+      <li><a href="#">News Feed</a></li>
+    </ul>
+  </div>
+</nav>
+  <!-- <div class="row column">
+    <div class="card">
+        <img src="images/elie.jfif" alt="John" style="width:100%">
+        <h1>John Doe</h1>
+        <p class="title">CEO & Founder, Example</p>
+        <p>Harvard University</p>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <p><button>Contact</button></p>
+      </div>
+      <div class="card">            
+          <!-- creating cards -->
+        <!-- <img src="images/elie.jfif" alt="John" style="width:100%">
+        <h1>John Doe</h1>
+        <p class="title">CEO & Founder, Example</p>
+        <p>Harvard University</p>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <p><button>Contact</button></p>
+      </div>
+  </div> --> 
+<di>
+    <h1 id="head">Meet The Team</h1>
+</di>
+  <div class="row profile-box">
+    <div class="col-md-3 text-center">
+        <img src="images/elie.jfif" alt="John" style="width:100%">
+        <h2>Jessie Smith</h2>
+        <p class="title">CEO & Founder, Example</p>
+        <p>Jessi22@gmail.com</p>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="btn bstretched-link">See Profile</a>
+      </div>
+      <div class="col-md-3 text-center">            
+          <!-- creating cards -->
+        <img src="images/mike.jfif" alt="John" style="width:100%">
+        <h2>Mike Dave</h2>
+        <p class="title">CEO & Founder, Example</p>
+        <p>Mike@gmail.com</p>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+      </div>
+      <div class="col-md-3 text-center">            
+        <!-- creating cards -->
+      <img src="images/william.jfif" alt="John" style="width:100%">
+      <h2>Willaim Lucas</h2>
+      <p class="title">CEO & Founder, Example</p>
+      <p>Lucas24@gmail.com</p>
+      <a href="#"><i class="fa fa-dribbble"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+    </div>
+    <div class="col-md-3 text-center">            
+        <!-- creating cards -->
+      <img src="images/McCoy.jfif" alt="John" style="width:100%">
+      <h2>Mary McCoy</h2>
+      <p class="title">McCoy@gmail.com</p>
+      <p>McCoy@gmail.com</p>
+      <a href="#"><i class="fa fa-dribbble"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+    </div>
+  </div>
+
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">New User</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">New User</h4>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+            <form action="/action_page.php" class="was-validated">
+              <div class="form-group">
+                <label for="uname">Firsname:</label>
+                <input type="text" class="form-control" id="fname" placeholder="Enter Firstname" name="uname" required>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                <label for="uname">Surnmae:</label>
+                <input type="text" class="form-control" id="sname" placeholder="Enter Surnmae" name="uname" required>
+                <div class="invalid-feedback">Please fill out this field.</div>
+              </div>
+              <div class="form-group">
+                <label for="pwd">Phone Number:</label>
+                <input type="number" class="form-control" id="pwd" placeholder="Please Enter Phone Number" name="pswd" required>
+                <div class="invalid-feedback">Please fill out this field.</div>
+              </div>
+              <div class="form-group form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="remember" required> I agree to the t&c
+                  <div class="invalid-feedback">Check this checkbox to continue.</div>
+                </label>
+              </div>
+              <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
